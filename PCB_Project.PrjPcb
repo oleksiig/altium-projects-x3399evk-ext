@@ -31,6 +31,7 @@ FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
+LinkedManagedProjectGUID=
 IncludeDesignInRelease=0
 
 [Preferences]
@@ -547,10 +548,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IBDDTXKN
 
-[GeneratedDocument1]
-DocumentPath=PCB 21.04.2019 23-13-36.WAS
-DItemRevisionGUID=
-
 [SearchPath1]
 Path=..\..\libs\pcb\*.*
 IncludeSubFolders=1
@@ -713,7 +710,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP LaserJet P1006
+TargetPrinter=HP LaserJet P3011/P3015 PCL6
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -803,6 +800,18 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=Wave Print
+OutputName11=Wave Prints
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType12=WaveSim Print
+OutputName12=WaveSim Prints
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -829,7 +838,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HP LaserJet P1006
+TargetPrinter=HP LaserJet P3011/P3015 PCL6
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -909,7 +918,7 @@ Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLaye
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=HP LaserJet P1006
+TargetPrinter=HP LaserJet P3011/P3015 PCL6
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -922,7 +931,7 @@ Configuration1_Item1=CaptionAsName
 Configuration1_Name2=Filter
 Configuration1_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
 Configuration1_Name3=General
-Configuration1_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=0|FormWidth=1056|FormHeight=660|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration1_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=0|FormWidth=1056|FormHeight=660|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
 Configuration1_Name4=GroupOrder
 Configuration1_Item4=Comment=True|Footprint=True
 Configuration1_Name5=SortOrder
@@ -1331,32 +1340,6 @@ Type87=1
 Type88=1
 Type89=1
 Type90=1
-Type91=1
-Type92=1
-Type93=1
-Type94=1
-Type95=1
-Type96=1
-Type97=1
-Type98=1
-Type99=1
-Type100=1
-Type101=1
-Type102=1
-Type103=1
-Type104=1
-Type105=1
-Type106=1
-Type107=1
-Type108=1
-Type109=1
-Type110=1
-Type111=1
-Type112=1
-Type113=1
-Type114=1
-Type115=1
-Type116=1
 
 [Difference Levels]
 Type1=1
@@ -1408,22 +1391,6 @@ Type46=1
 Type47=1
 Type48=1
 Type49=1
-Type50=1
-Type51=1
-Type52=1
-Type53=1
-Type54=1
-Type55=1
-Type56=1
-Type57=1
-Type58=1
-Type59=1
-Type60=1
-Type61=1
-Type62=1
-Type63=1
-Type64=1
-Type65=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1539,15 +1506,7 @@ Type110=1
 Type111=1
 Type112=1
 Type113=1
-Type114=2
-Type115=2
-Type116=2
-Type117=3
-Type118=3
-Type119=3
 MultiChannelAlternate=2
-AlternateItemFail=3
-Type122=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW

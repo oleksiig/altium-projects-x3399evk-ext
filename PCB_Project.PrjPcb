@@ -137,7 +137,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=FUVJKQFG
+DocumentUniqueId=PFDMCKMK
 
 [Document7]
 DocumentPath=..\..\libs\sch\General\leds.SchLib
@@ -409,7 +409,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=QTBEAQFK
+DocumentUniqueId=GKVFPNRS
 
 [Document23]
 DocumentPath=..\..\libs\sch\ICs\Other\STA309A.SchLib
@@ -494,7 +494,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=QQJGMJVE
+DocumentUniqueId=RIQNWFJK
 
 [Document28]
 DocumentPath=..\..\libs\external\STMicroelectronics\STMicroelectronics STM32 F3.IntLib
